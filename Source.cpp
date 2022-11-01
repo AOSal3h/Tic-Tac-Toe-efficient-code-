@@ -60,6 +60,7 @@ int main() {
 			player = switch_user(player); // switching user
 			isFound = false;
 		}
+		system("CLS");
 
 		for (int i{ 0 }; i <= 4; i++) { // wining conditions
 			if (map[i][0] == map[i][2] && map[i][0] == map[i][4]) { // checking vertically 
